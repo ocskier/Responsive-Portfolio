@@ -98,7 +98,7 @@ h1 {
   
 .main-section {
     float: left;
-    width: 100%;
+    width: 66%;
     max-width: 960px;
     overflow: auto;
     padding: 30px;
@@ -186,6 +186,9 @@ p   {
 @media screen and (max-width: 968px) {
   
     .main-section {
+        float: none;
+        margin: 0 auto 40px;
+        width: 100%;
         max-width: 768px;
     }
   }
@@ -193,11 +196,15 @@ p   {
 @media screen and (max-width: 768px) {
 
     .main-section {
-        max-width: 640px;
+       max-width: 640px;
     }
   }
 
   @media screen and (max-width: 640px) {
+    
+    .main-section {
+        max-width: 524px;
+    }
     
     #main-container {
         padding-top: 5px;
@@ -206,4 +213,14 @@ p   {
     #myheader{
         position: static;
     }
+
+    #navbar {
+        width: 100%;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+    }
+
   }
