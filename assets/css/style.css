@@ -37,6 +37,12 @@ h1 {
     margin-left: 40px; 
 }
 
+a {
+    color: #777777;
+    text-decoration: underline;
+    font-style: italic;
+}
+
 /* header */
   
 #myheader {
@@ -111,12 +117,6 @@ img {
     padding: 0 25px 25px 0;
     width: 250px;
     height: 250px;
-}
-
-a {
-    color: #777777;
-    text-decoration: underline;
-    font-style: italic;
 }
 
   /* footer */
